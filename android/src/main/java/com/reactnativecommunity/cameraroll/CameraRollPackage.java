@@ -38,7 +38,7 @@ public class CameraRollPackage extends TurboReactPackage implements ViewManagerO
 
     @Override
     protected List<ModuleSpec> getViewManagers(ReactApplicationContext reactContext) {
-        return new ArrayList<String>();
+        return new ArrayList<ModuleSpec>();
     }
 
     /** {@inheritDoc} */
